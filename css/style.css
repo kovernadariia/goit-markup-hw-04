@@ -323,26 +323,26 @@ section {
   text-align: center;
   color: #434455;
 }
-.soc-list-item-link {
-  background-color: #4d5ae5;
-  display: block;
-  fill: #fff;
-  padding: 10px 12px;
-  border-radius: 18px;
-  align-items: center;
-  justify-content: center;
-}
+
 .soc-list {
   display: flex;
-  gap: 24px;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 .soc-list-item {
+  width: 40px;
+  height: 40px;
+}
+.soc-list-item-link {
+  background-color: #4d5ae5;
+  fill: #fff;
   display: flex;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
-  width: calc((100% - 3 * 24px) / 4);
+  width: 100%;
+  height: 100%;
 }
 .container-soc {
   margin-top: 8px;
